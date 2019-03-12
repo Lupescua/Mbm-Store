@@ -1,0 +1,38 @@
+﻿div.panel {
+    padding-top: 2em;
+}
+h2 {
+    font-size: 150%;
+}
+td {
+    padding: 4px 0;
+}
+
+td.product-details {
+    width: 300px;
+    vertical-align: top;
+    padding: 12px;
+}
+
+td.product-image img {
+    width:120px;
+}
+.row {
+    margin: 15px 0;
+    padding:10px 0;
+    border-bottom: 1px solid #666;
+}
+
+div#categories {
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content:space-between;
+    }
+}
